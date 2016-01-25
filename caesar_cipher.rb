@@ -13,9 +13,9 @@
     return string
   end
 
-  puts "enter string: "
+  print "enter string: "
   input = gets.chomp
-  puts "enter shift factor: "
+  print "enter shift factor: "
   shift = gets.chomp.to_i
 
   caesar_cipher(input, shift)
